@@ -12,5 +12,5 @@ It has been developed with [Jekyll](http://jekyllrb.com/) and hosted by [GitHub]
 You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
 
 <p class="rss-subscribe">
-    ...and subscribe for more news <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a>
+    ...and subscribe for more news <a href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">via RSS</a>
 </p>
