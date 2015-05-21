@@ -1,0 +1,37 @@
+<html>
+  <head>
+    <script type='text/javascript' src='https://www.google.com/jsapi'></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['corechart', 'bar']});
+      google.setOnLoadCallback(drawLanguageChart);
+
+      function drawLanguageChart() {
+        var data = google.visualization.arrayToDataTable([
+          ['Language','Guests'],
+          ['English',       70],
+          ['Greek',         58],
+          ['German',         6],
+          ['Italian',        5],
+          ['French',         4],
+          ['Spanish',        2],
+          ['Swedish',        1],
+          ['Turkish',        1]
+        ]);
+
+        var options = {
+            title:     'Number of Guests per Speaking Language',
+            chartArea: {width: '50%'},
+            hAxis:     {title:    'Number of guests',
+                        minValue: 0},
+            vAxis:     {title: 'Language'}
+        };
+
+        var chart = new google.visualization.BarChart(document.getElementById('chart_by_language_div'));
+        chart.draw(data, options);
+        };
+    </script>
+  </head>
+  <body>
+    <div id="chart_by_language_div" style="width: 600px; height: 333px;"></div>
+  </body>
+</html>
