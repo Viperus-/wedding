@@ -6,7 +6,11 @@ categories: jekyll update
 ---
 
 Guests travelling by country of departure:
-<iframe src="{{ site.baseurl }}/galleries/guests/travelling-country.html" width="620" height="400" frameborder="0" style="border:0"></iframe>
+<iframe
+src="{{ site.baseurl | prepend: site.url }}/galleries/guests/travelling-country.html"
+width="620" height="400" frameborder="0" style="border:0"></iframe>
 
 Guests travelling by city of departure:
-<iframe src="{{ site.baseurl }}/galleries/guests/travelling-city.html" width="620" height="400" frameborder="0" style="border:0"></iframe>
+<iframe
+src="{{ site.baseurl | prepend: site.url }}/galleries/guests/travelling-city.html"
+width="620" height="400" frameborder="0" style="border:0"></iframe>
