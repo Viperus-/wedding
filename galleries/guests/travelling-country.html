@@ -1,0 +1,36 @@
+<html>
+  <head>
+    <script type='text/javascript' src='https://www.google.com/jsapi'></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['geochart']});
+      google.setOnLoadCallback(drawMarkersByCountryMap);
+
+      function drawMarkersByCountryMap() {
+        var data = google.visualization.arrayToDataTable([
+          ['Country','Guests'],
+          ['Greece',       48],
+          ['England',      19],
+          ['Germany',       2],
+          ['Belgium',       2],
+          ['Italy',         2],
+          ['Switzerland',   1]
+        ]);
+
+        var options = {
+          region:             '150', //Europe
+          displayMode:        'markers',
+          colorAxis:          {colors: ['#66CCFF', '#0066CC']}, // light blue to blue
+          keepAspectRatio:    true,
+          width:              600,
+          magnifyingGlass:    {enable: true, zoomFactor: 20.0},
+        };
+
+        var chart = new google.visualization.GeoChart(document.getElementById('chart_by_country_div'));
+        chart.draw(data, options);
+      };
+    </script>
+  </head>
+  <body>
+    <div id="chart_by_country_div" style="width: 600px; height: 333px;"></div>
+  </body>
+</html>

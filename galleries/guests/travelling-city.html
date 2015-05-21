@@ -1,0 +1,42 @@
+<html>
+  <head>
+    <script type='text/javascript' src='https://www.google.com/jsapi'></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['geochart']});
+      google.setOnLoadCallback(drawMarkersByCityMap);
+
+      function drawMarkersByCityMap() {
+        var data = google.visualization.arrayToDataTable([
+          ['City',   'Guests'],
+          ['Athens',       32],
+          ['Bristol',      14],
+          ['Thessaloniki',  6],
+          ['Heraklion',     6],
+          ['Patras',        4],
+          ['Oxford',        2],
+          ['Brussels',      2],
+          ['Bournemouth',   2],
+          ['Milan',         2],
+          ['Hamburg',       2],
+          ['Zurich',        1],
+          ['Coventry',      1]
+        ]);
+
+        var options = {
+            region:          '150',  //'Europe',
+            displayMode:     'markers',
+            colorAxis:       {colors: ['#24920c', '#0066CC']},  // green to light green
+            sizeAxis:        {minSize: 2, maxSize: 9},
+            keepAspectRatio: true,
+            width:           600,
+        };
+
+        var chart = new google.visualization.GeoChart(document.getElementById('chart_by_city_div'));
+        chart.draw(data, options);
+      };
+    </script>
+  </head>
+  <body>
+    <div id="chart_by_city_div" style="width: 600px; height: 333px;"></div>
+  </body>
+</html>
