@@ -7,18 +7,18 @@
 
       function drawMarkersByCountryMap() {
         var data = google.visualization.arrayToDataTable([
-          ['Country','Guests'],
-          ['Greece',       48],
-          ['England',      19],
-          ['Germany',       2],
-          ['Belgium',       2],
-          ['Italy',         2],
-          ['Switzerland',   1]
+          ['Country', 'Guests'],
+          ['Greece',        47],
+          ['Great Britain', 14],
+          ['Germany',        2],
+          ['Belgium',        2],
+          ['Italy',          1],
+          ['Switzerland',    1]
         ]);
 
         var options = {
           region:             '150', //Europe
-          displayMode:        'markers',
+          displayMode:        'regions',
           colorAxis:          {colors: ['#66CCFF', '#0066CC']}, // light blue to blue
           keepAspectRatio:    true,
           width:              600,

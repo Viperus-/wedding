@@ -6,7 +6,7 @@ categories: jekyll update
 ---
 
 We will be happy if you could join us for pre-wedding drinks on\\
-Saturday 20-June from 20:00 onwards at BIOS' terrace, Athens
+Saturday 20-June from 20:00 onwards at BIOS' terrace, Athens!
 
 More information about BIOS: [www.bios.gr](http://www.bios.gr/about/)
 
