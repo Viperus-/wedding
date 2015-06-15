@@ -9,6 +9,7 @@ categories: jekyll update
 There are few options on how to transport from Athens airport to city centre. The airport El. Venizelos is the only airport that serves Athens and it is located on the East side of [Attica](https://en.wikipedia.org/?title=Attica){:target="_blank"}, the historically county that encompasses Athens. The greek word for airport is "αεροδρόμιο" [\(aɛɾɔˈðɾɔmiɔ\)](https://en.wikipedia.org/wiki/Help:IPA_for_Greek){:target="_blank"}.
 
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d100687.24758395304!2d23.922703662508564!3d37.942658896930475!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0000000000000000%3A0x38b215df0aeeb3aa!2sAthens+International+Airport!5e0!3m2!1sen!2suk!4v1434384619307" width="600" height="450" frameborder="0" style="border:0"></iframe>
+
 <br>
 
 The easiest way to travel to Athens is by Metro but it can be less convenient if you are travelling to the southern districts. In that case X96 and X97 buses should be more convenient.
