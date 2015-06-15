@@ -12,7 +12,7 @@ There are few options on how to transport from Athens airport to city centre. Th
 
 <br>
 
-The easiest way to travel to Athens is by Metro but it can be less convenient if you are travelling to the southern districts. In that case X96 and X97 buses should be more convenient.
+The easiest way to travel to Athens is by Metro but it can be less convenient if you are travelling to the southern districts. In that case X96 and X97 buses should be more convenient. Large portion of the following information has been extracted from public transportation provider's website [oasa.gr](http://www.oasa.gr/content.php?id=airlines&lang=en){:target="_blank"}.
 
 ### By train
 
