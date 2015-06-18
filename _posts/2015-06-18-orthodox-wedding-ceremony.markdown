@@ -5,7 +5,7 @@ date:   2015-06-18 14:26
 categories: jekyll update
 ---
 
-Our friend Sonia prepared a guide for the ceremony and the various stages of the wedding. Every single part of the protocol has mature over centuries and has special meaning. People new to Greek Orthodox culture can use this guide through the ceremony... We hope you won't get bored! We have make a pdf version of this guide for you convenience, accessible [here][1]{:target="_blank"}.
+Our friend Sonia prepared a guide for the ceremony and the various stages of the wedding. Every single part of the protocol has matured over centuries and has special meaning. People new to Greek Orthodox culture can use this guide through the ceremony... We hope you won't get bored! We have made a pdf version of this guide for you convenience, accessible [here][1]{:target="_blank"}.
 
 [1]: {{ site.baseurl }}/galleries/ceremony/Wedding-Guide-Kyr&Sia.pdf "Greek Orthodox Wedding Ceremony"
 
